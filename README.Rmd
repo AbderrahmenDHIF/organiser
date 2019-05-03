@@ -28,7 +28,7 @@ The goal of organiser is to creates folders to organize R project
 You can install the released version of organiser from [github](https://CRAN.R-project.org) with:
 
 ``` r
-install.packages("organiser")
+remotes::install_github("AbderrahmenDHIF/organiser")
 ```
 
 ## Example

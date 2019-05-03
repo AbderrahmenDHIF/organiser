@@ -16,7 +16,7 @@ Installation
 You can install the released version of organiser from [github](https://CRAN.R-project.org) with:
 
 ``` r
-install.packages("organiser")
+remotes::install_github("AbderrahmenDHIF/organiser")
 ```
 
 Example
@@ -28,6 +28,6 @@ This is a basic example which shows you how to solve a common problem:
 library(organiser)
 ## add files
 add_file()
-## add script #
+## add script
 add_script("name_of_script")
 ```
