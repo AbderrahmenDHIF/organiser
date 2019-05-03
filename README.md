@@ -28,6 +28,6 @@ This is a basic example which shows you how to solve a common problem:
 library(organiser)
 ## add files
 add_file()
-## add script
+## add script #
 add_script("name_of_script")
 ```
