@@ -56,10 +56,10 @@ add_script <- function(name) {
   if(name=="R_00_global_script"){
 
   write_there("#### ------------------------ O- Path ------------------------------- ####")
-  write_there("Script='Script/'")
-  write_there("Data_src='Data_src/'")
-  write_there("Data_save='Data_save/'")
-  write_there("Output='Output/'")
+  write_there("Script='Script/' # This folder contains all scripts of the project")
+  write_there("Data_src='Data_src/' # This folder contains the inputs")
+  write_there("Data_save='Data_save/' # This folder contains the aggregated data")
+  write_there("Output='Output/' # This folder contains the outputs")
   write_there("")
   write_there("#### ------------------------ I- Prametres -------------------------- ####")
   write_there("# add date")
