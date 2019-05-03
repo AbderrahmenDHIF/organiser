@@ -8,7 +8,7 @@ organiser
 
 ![sticker](inst/figures/organiseR.png)
 
-The goal of organiser is to creates folders to organize R project
+The goal of organiser is to create folders to organize R project
 
 Installation
 ------------
