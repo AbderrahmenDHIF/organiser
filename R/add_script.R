@@ -49,5 +49,29 @@ add_script <- function(name) {
   write_there(paste0("# IT Environment: R studio server",paste(rep(" ",66),collapse = ""),"#"))
   write_there(paste0("# Goal of the script :",paste(rep(" ",77),collapse = ""),"#"))
   write_there(paste(rep("#",100),collapse = ""))
+  write_there("")
+  write_there("")
+  write_there("")
+
+  if(name=="R_00_global_script"){
+
+  write_there("#### ------------------------ O- Path ------------------------------- ####")
+  write_there("Script='Script/'")
+  write_there("Data_src='Data_src/'")
+  write_there("Data_save='Data_save/'")
+  write_there("Output='Output/'")
+  write_there("")
+  write_there("#### ------------------------ I- Prametres -------------------------- ####")
+  write_there("# add date")
+  write_there(glue("# deb_date='%Sys.Date()%'"))
+  write_there(glue("# fin_date='%Sys.Date()%'"))
+  write_there("#### ------------------------ II- Library --------------------------- ####")
+  write_there("")
+  write_there("#### ------------------------ III- Run scripts ---------------------- ####")
+  write_there('source(paste0(Script,"R_01_Data_management.R"),encoding = "UTF-8",echo = TRUE)')
+  write_there('source(paste0(Script,"R_02_Data_analysis.R"),encoding = "UTF-8",echo = TRUE)')
+
+  }
 
 }
+
