@@ -1,0 +1,19 @@
+Package: organiser
+Type: Package
+Title: Creates Folders For R Project
+Version: 0.1.0
+Author: Abderrahmen Dhif <dhifabderrahmen@hotmail.fr>
+Maintainer: Abderrahmen Dhif <dhifabderrahmen@hotmail.fr>
+Description: This package creates folders to organize R project.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    usethis,
+    glue,
+    yesno
+RoxygenNote: 6.1.1
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
