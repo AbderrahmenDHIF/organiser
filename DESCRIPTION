@@ -17,3 +17,5 @@ Suggests:
     knitr,
     rmarkdown
 VignetteBuilder: knitr
+URL: https://github.com/AbderrahmenDHIF/organiser
+BugReports: https://github.com/AbderrahmenDHIF/organiser/issues
