@@ -37,9 +37,9 @@ Script structure
 
 The `Script`folder contains 3 R scripts described above:
 
--   `R_00_global_script`:
--   `R_01_Data_management`:
--   `R_02_Data_analysis`:
+-   `R_00_global_script`: Fixing paramters like date, loading library, define paths and sourcing scripts
+-   `R_01_Data_management`: Preparing data for analysis (e.g. cleaning data, creating features ...)
+-   `R_02_Data_analysis`: Transform the data into information (e.g. aggregation, tidying ...)
 
 ![scripte](inst/figures/scriptstr.PNG)
 
