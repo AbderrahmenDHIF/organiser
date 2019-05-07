@@ -47,9 +47,9 @@ The function `add_file` creates 4 folders and a Readme file described above:
 
 The `Script`folder contains 3 R scripts described above:
 
-* `R_00_global_script`: Fixing paramters like date, loading library and sourcing scripts 
+* `R_00_global_script`: Fixing paramters, loading libraries and sourcing scripts 
 * `R_01_Data_management`: Preparing data for analysis (e.g. cleaning data, creating features ...)
-* `R_02_Data_analysis`: Transforming the data into information (e.g. aggregation, tidying ...)
+* `R_02_Data_analysis`: Transforming data into information (e.g. aggregation, tidying ...)
 
 ![scripte](inst/figures/scriptstr.PNG)
 
@@ -57,11 +57,13 @@ The `Script`folder contains 3 R scripts described above:
 
 ## Example
 
+Create an R project first, then you can use the exemple above
+
 ```{r example, eval=FALSE}
 library(organiser)
-## add files
+## create the file and the script structure described below
 add_file()
-## add script
+## create an additional script inside the script folder
 add_script("name_of_script")
 ```
 
