@@ -25,9 +25,10 @@ The goal of organiser is to use a single file structure convention for R project
 
 ## Installation
 
-You can install the released version of organiser from [github](https://CRAN.R-project.org) with:
+You can install the released version of organiser from Github with:
 
-``` r
+```{r eval=FALSE}
+# install.packages("remotes")
 remotes::install_github("AbderrahmenDHIF/organiser")
 ```
 
