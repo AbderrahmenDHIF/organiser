@@ -42,7 +42,7 @@ The `Script`folder contains 3 R scripts described above:
 -   `R_01_Data_management`: Preparing data for analysis (e.g. cleaning data, creating features ...)
 -   `R_02_Data_analysis`: Transforming data into information (e.g. aggregation, tidying ...)
 
-![scripte](inst/figures/scriptstr.PNG)
+![script](inst/figures/scriptstr.PNG)
 
 Example
 -------
